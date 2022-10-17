@@ -1,5 +1,6 @@
 {
-  "title": "SprintForm Spend Tracker",
+  "company": "Sprintform",
+  "title": "Spend Tracker",
   "search": "Search: ",
   "show": "My Spends",
   "hide": "Hide spends",
@@ -9,5 +10,7 @@
   "travel": "Travel",
   "clothing": "Clothing",
   "loading": "Data is loading",
-  "category-select": "Categorys: "
+  "category-select": "Categorys: ",
+  "category": "Category",
+  "sum": "Summary"
 }

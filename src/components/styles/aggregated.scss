@@ -1,0 +1,33 @@
+.aggregated-container {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  table {
+    color: rgb(65, 65, 65);
+
+    padding: 10px;
+    height: 300px;
+    width: 40%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.527) inset,
+      -1px -1px 3px rgba(0, 0, 0, 0.466) inset;
+    td,
+    th {
+      text-align: center;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.603) inset,
+        -1px -1px 3px rgba(0, 0, 0, 0.5) inset;
+      height: 40px;
+      border-radius: 4px;
+    }
+  }
+}
+@media screen and(max-width: 500px) {
+  .aggregated-container {
+    flex-direction: column;
+    gap: 1rem;
+    height: 70vh;
+    table {
+      width: 90%;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
-  "title": "SprintForm Költség Kezelő",
+  "company": "SprintForm",
+  "title": "Költség Kezelő",
   "search": "Keresés: ",
   "show": "Költéseim",
   "hide": "Ne is lássam",
@@ -9,5 +10,7 @@
   "travel": "Utazás",
   "clothing": "Ruha",
   "loading": "Az adatok töltődnek...",
-  "category-select": "Kategóriák: "
+  "category-select": "Kategóriák: ",
+  "category": "Kategória",
+  "sum": "Összesen"
 }

@@ -5,20 +5,19 @@ import ListItem from "./ListItem";
 import { useTranslation } from "react-i18next";
 
 import "./styles/spendList.scss";
-import { Chart } from "./Chart";
+import AggregatedContainer from "./AggregatedContainer";
 
 const SpendList = () => {
   const { t } = useTranslation();
 
-  const { isLoading, showList, selectedCategory } =
-    useContext(StoreCtx);
+  const { isLoading, showList, selectedCategory } = useContext(StoreCtx);
 
   if (isLoading) {
     return <p>{t("loading")}</p>;
   }
   return (
     <ul className="spend-list-container">
-      {selectedCategory && !showList && <Chart />}
+      {selectedCategory && !showList && <AggregatedContainer />}
       {selectedCategory &&
         showList &&
         selectedCategory.map((item: TrackerResponse, i) => (

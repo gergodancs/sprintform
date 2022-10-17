@@ -9,7 +9,8 @@ const Header = () => {
 
   return (
     <div className="header">
-      <h1>{t("title")}</h1>
+      <h1>{t("company")}</h1>
+      <span>{t("title")}</span>
     </div>
   );
 };
