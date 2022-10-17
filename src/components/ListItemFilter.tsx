@@ -2,6 +2,7 @@ import "./styles/listItemFilter.scss";
 import { useContext } from "react";
 import SelectCategory from "./SelectCategory";
 import Button from "./Button";
+import ChangeLangBtn from "./ChangeLangBtn";
 import StoreCtx from "../store-context/store";
 import { useTranslation } from "react-i18next";
 
@@ -22,7 +23,7 @@ const ListItemFilter = () => {
   return (
     <div className="filter-container">
       <SelectCategory />
-      <Button text={t(showList ? "hide" : "show")} onClick={showSpends} />
+      <Button text={t("show")} onClick={showSpends} />
     </div>
   );
 };
