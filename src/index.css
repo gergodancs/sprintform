@@ -31,10 +31,21 @@ code {
     rgb(226, 226, 226)
   );
 }
+
+canvas {
+  width: 600px !important;
+  height: 600px !important;
+  margin: 0 auto;
+}
 @media screen and (max-width: 500px) {
   .app-container {
     padding: 5px;
     height: 100vh;
     max-height: 100%;
+  }
+  canvas {
+    width: 70% !important;
+    height: 70% !important;
+    margin: 0 auto;
   }
 }

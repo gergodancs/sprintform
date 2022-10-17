@@ -7,7 +7,6 @@ const StoreCtx = React.createContext({
   isLoading: false,
   setResponseData: void {},
   getSpends: void {},
-
   showList: false,
   setShowList: void {},
   selectedCategory: [],
@@ -17,7 +16,6 @@ const StoreCtx = React.createContext({
 export const ContextProvider = (props) => {
   const [responseData, setResponseData] = useState<TrackerResponse[]>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
-
   const [showList, setShowList] = useState<boolean>(false);
   const [selectedCategory, setSelectedCategory] = useState([]);
 

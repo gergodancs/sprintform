@@ -19,10 +19,12 @@ const ListItemFilter = () => {
       setShowList((prevState) => !prevState);
     }
   };
+
   return (
     <div className="filter-container">
       <SelectCategory />
-      <Button text={t(showList ? "hide" : "show")} onClick={showSpends} />
+
+      <Button text={t(showList ? "Chart" : "show")} onClick={showSpends} />
     </div>
   );
 };
