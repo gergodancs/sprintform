@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./styles/header.scss";
 import { useEffect } from "react";
-import ChangeLangBtn from "./ChangeLangBtn";
 
 const Header = () => {
   const { t } = useTranslation();
