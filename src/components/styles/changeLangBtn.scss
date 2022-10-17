@@ -1,0 +1,14 @@
+.language {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  left: 75%;
+  span {
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+  }
+}
+.language:hover {
+  cursor: pointer;
+}

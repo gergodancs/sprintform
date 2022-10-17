@@ -1,0 +1,29 @@
+.filter-container {
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column-reverse;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.category-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  select {
+    width: 100px;
+
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(173, 172, 172);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.192);
+    option {
+      text-align: center;
+      outline: none;
+    }
+  }
+}

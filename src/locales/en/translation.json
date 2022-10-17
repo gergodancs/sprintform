@@ -1,0 +1,12 @@
+{
+  "title": "SprintForm Spend Tracker",
+  "search": "Search: ",
+  "show": "My Spends",
+  "all": "All",
+  "housing": "Housing",
+  "food": "Food",
+  "travel": "Travel",
+  "clothing": "Clothing",
+  "loading": "Data is loading",
+  "category-select": "Categorys: "
+}
